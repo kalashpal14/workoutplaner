@@ -1,0 +1,188 @@
+import type { Exercise } from "@/lib/types";
+
+export const BACK_EXERCISES: Exercise[] = [
+  {
+    id: "deadlift",
+    name: "Deadlift",
+    muscleGroup: "back",
+    equipment: "barbell",
+    difficulty: "advanced",
+    image: "",
+    template: "deadlift",
+    steps: [
+      "Stand with mid-foot under the bar, hip-width apart.",
+      "Hinge and grip the bar just outside your legs, back flat and chest up.",
+      "Drive through your heels, extending hips and knees together to stand tall.",
+      "Lower the bar by hinging at the hips first, then bending the knees.",
+    ],
+    tips: [
+      "Keep the bar in contact with your legs throughout the lift.",
+      "Think 'push the floor away' rather than pulling with the arms.",
+    ],
+    mistakes: [
+      "Rounding the lower back - a recipe for injury under load.",
+      "Jerking the bar off the floor instead of building tension first.",
+    ],
+  },
+  {
+    id: "pull-up",
+    name: "Pull-Up",
+    muscleGroup: "back",
+    equipment: "bodyweight",
+    difficulty: "advanced",
+    image: "",
+    template: "pullup",
+    steps: [
+      "Hang from a bar with an overhand grip slightly wider than shoulders.",
+      "Start from a dead hang with arms fully extended.",
+      "Pull your chest toward the bar by driving elbows down and back.",
+      "Lower yourself with control to a full hang.",
+    ],
+    tips: [
+      "Initiate each rep by depressing the shoulder blades before bending the arms.",
+      "Can't do one yet? Use band assistance or negatives (slow lowering).",
+    ],
+    mistakes: [
+      "Kipping or swinging to grind out extra reps.",
+      "Stopping short of a full hang at the bottom.",
+    ],
+  },
+  {
+    id: "lat-pulldown",
+    name: "Lat Pulldown",
+    muscleGroup: "back",
+    equipment: "cable",
+    difficulty: "beginner",
+    image: "",
+    template: "pulldown",
+    steps: [
+      "Sit with thighs secured under the pads, gripping the bar wide.",
+      "Lean back slightly, chest proud.",
+      "Pull the bar down to your upper chest, leading with the elbows.",
+      "Let the bar rise slowly until arms are fully stretched overhead.",
+    ],
+    tips: [
+      "Focus on squeezing the armpit muscles at the bottom of each rep.",
+      "A great stepping stone toward your first pull-up.",
+    ],
+    mistakes: [
+      "Leaning way back and turning it into a row.",
+      "Pulling behind the neck, which strains the shoulders.",
+    ],
+  },
+  {
+    id: "bent-over-barbell-row",
+    name: "Bent-Over Barbell Row",
+    muscleGroup: "back",
+    equipment: "barbell",
+    difficulty: "intermediate",
+    image: "",
+    template: "row",
+    steps: [
+      "Hold a barbell with an overhand grip just outside knee width.",
+      "Hinge forward until your torso is about 45 degrees.",
+      "Row the bar into your lower ribs, elbows close to the body.",
+      "Lower the bar under control without rounding your back.",
+    ],
+    tips: [
+      "Brace the core hard to protect the spine in the hinge position.",
+      "Squeeze the shoulder blade toward the spine at the top.",
+    ],
+    mistakes: [
+      "Standing up straighter with every rep as fatigue sets in.",
+      "Using momentum from the hips to heave the weight up.",
+    ],
+  },
+  {
+    id: "seated-cable-row",
+    name: "Seated Cable Row",
+    muscleGroup: "back",
+    equipment: "cable",
+    difficulty: "beginner",
+    image: "",
+    template: "row-seated",
+    steps: [
+      "Sit upright with feet on the platform, knees slightly bent.",
+      "Grab the handle and sit tall with arms extended.",
+      "Pull the handle into your belly button, keeping torso still.",
+      "Extend arms forward slowly, letting shoulders stretch ahead.",
+    ],
+    tips: [
+      "Imagine crushing a walnut between your shoulder blades.",
+      "Torso should stay near-vertical; rocking cheats the back.",
+    ],
+    mistakes: [
+      "Leaning back dramatically to move heavier weight.",
+      "Shrugging shoulders up toward the ears while pulling.",
+    ],
+  },
+  {
+    id: "single-arm-dumbbell-row",
+    name: "Single-Arm Dumbbell Row",
+    muscleGroup: "back",
+    equipment: "dumbbell",
+    difficulty: "beginner",
+    image: "",
+    template: "row-single",
+    steps: [
+      "Place one knee and the same-side hand on a flat bench.",
+      "Hold a dumbbell in the free hand, arm hanging straight down.",
+      "Row the dumbbell up to your hip, elbow brushing your side.",
+      "Lower it until the arm is fully extended again.",
+    ],
+    tips: [
+      "Keep hips square to the bench - avoid torso rotation.",
+      "Pause for a beat at the top to maximize the squeeze.",
+    ],
+    mistakes: [
+      "Twisting the body to help lift the weight.",
+      "Yanking the dumbbell with momentum instead of controlled pulls.",
+    ],
+  },
+  {
+    id: "t-bar-row",
+    name: "T-Bar Row",
+    muscleGroup: "back",
+    equipment: "barbell",
+    difficulty: "intermediate",
+    image: "",
+    template: "row",
+    steps: [
+      "Straddle the T-bar with a neutral grip on the handles.",
+      "Hinge to about 45 degrees with a flat back.",
+      "Pull the weight up until the plates touch your chest.",
+      "Lower slowly until arms are extended.",
+    ],
+    tips: [
+      "The neutral grip is shoulder-friendly for most lifters.",
+      "Keep knees softly bent to stay balanced over the bar.",
+    ],
+    mistakes: [
+      "Standing too upright and shifting work to the lower back.",
+      "Bouncing reps off the bottom position.",
+    ],
+  },
+  {
+    id: "face-pull",
+    name: "Face Pull",
+    muscleGroup: "back",
+    equipment: "cable",
+    difficulty: "beginner",
+    image: "",
+    template: "face-pull",
+    steps: [
+      "Set a rope attachment at upper-chest height on the cable station.",
+      "Grab the rope ends with thumbs pointing back toward you.",
+      "Pull the rope toward your face, separating your hands beside your ears.",
+      "Rotate shoulders outward at the end, then return slowly.",
+    ],
+    tips: [
+      "Elbows should stay higher than wrists throughout.",
+      "Excellent for posture and balancing all the pressing you do.",
+    ],
+    mistakes: [
+      "Going heavy and turning it into a generic row.",
+      "Pulling to the chest instead of the face.",
+    ],
+  },
+];

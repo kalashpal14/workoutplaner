@@ -1,0 +1,188 @@
+import type { Exercise } from "@/lib/types";
+
+export const CHEST_EXERCISES: Exercise[] = [
+  {
+    id: "barbell-bench-press",
+    name: "Barbell Bench Press",
+    muscleGroup: "chest",
+    equipment: "barbell",
+    difficulty: "intermediate",
+    image: "",
+    template: "bench-press",
+    steps: [
+      "Lie flat on the bench with eyes under the bar, feet planted on the floor.",
+      "Grip the bar slightly wider than shoulder width and unrack it.",
+      "Lower the bar to your mid-chest with control, elbows at about 45 degrees.",
+      "Press the bar up until arms are fully extended, then repeat.",
+    ],
+    tips: [
+      "Keep your shoulder blades pinched back and down throughout.",
+      "Drive your legs into the floor for full-body stability.",
+    ],
+    mistakes: [
+      "Bouncing the bar off your chest instead of controlling the descent.",
+      "Flaring elbows straight out to 90 degrees, which stresses the shoulders.",
+    ],
+  },
+  {
+    id: "incline-dumbbell-press",
+    name: "Incline Dumbbell Press",
+    muscleGroup: "chest",
+    equipment: "dumbbell",
+    difficulty: "intermediate",
+    image: "",
+    template: "bench-press",
+    steps: [
+      "Set the bench to a 30-45 degree incline and sit back with a dumbbell in each hand.",
+      "Start with dumbbells at shoulder level, palms facing forward.",
+      "Press both dumbbells up and slightly together until arms are extended.",
+      "Lower with control until your elbows reach bench level.",
+    ],
+    tips: [
+      "A 30 degree incline maximizes upper-chest activation.",
+      "Keep wrists stacked directly over elbows at the bottom.",
+    ],
+    mistakes: [
+      "Setting the incline too high, which turns it into a shoulder press.",
+      "Clanging dumbbells together at the top and losing tension.",
+    ],
+  },
+  {
+    id: "push-up",
+    name: "Push-Up",
+    muscleGroup: "chest",
+    equipment: "bodyweight",
+    difficulty: "beginner",
+    image: "",
+    template: "pushup",
+    steps: [
+      "Place hands slightly wider than shoulders, body in a straight line.",
+      "Brace your core and squeeze your glutes.",
+      "Lower your chest until it nearly touches the floor.",
+      "Push back up until arms are fully extended.",
+    ],
+    tips: [
+      "Look at a spot on the floor about a foot ahead of you to keep the neck neutral.",
+      "Too easy? Elevate your feet or slow down the lowering phase.",
+    ],
+    mistakes: [
+      "Hips sagging toward the floor or piking up toward the ceiling.",
+      "Taking short cuts on range of motion by only bending halfway.",
+    ],
+  },
+  {
+    id: "dumbbell-fly",
+    name: "Dumbbell Fly",
+    muscleGroup: "chest",
+    equipment: "dumbbell",
+    difficulty: "beginner",
+    image: "",
+    template: "fly",
+    steps: [
+      "Lie flat on a bench holding dumbbells above your chest, palms facing each other.",
+      "With a slight bend in the elbows, open your arms out wide.",
+      "Feel the stretch across your chest, stopping when the weights reach bench level.",
+      "Squeeze your chest to bring the dumbbells back together.",
+    ],
+    tips: [
+      "Imagine hugging a barrel - the arc should be wide and smooth.",
+      "Use lighter weights than a press; this is an isolation move.",
+    ],
+    mistakes: [
+      "Bending elbows excessively and turning it into a sloppy press.",
+      "Going too heavy and letting the shoulders take over.",
+    ],
+  },
+  {
+    id: "cable-crossover",
+    name: "Cable Crossover",
+    muscleGroup: "chest",
+    equipment: "cable",
+    difficulty: "beginner",
+    image: "",
+    template: "fly",
+    steps: [
+      "Set pulleys high and grab a handle in each hand, stepping forward into a split stance.",
+      "Start with arms out to the sides and a slight elbow bend.",
+      "Bring hands down and together in front of your lower chest.",
+      "Squeeze hard for a second, then slowly return to the start.",
+    ],
+    tips: [
+      "Crossing one hand over the other increases the contraction.",
+      "Keep the movement coming from the shoulders, not the elbows.",
+    ],
+    mistakes: [
+      "Leaning too far forward and using body weight to pull.",
+      "Letting the stacks slam back instead of controlling the return.",
+    ],
+  },
+  {
+    id: "chest-dip",
+    name: "Chest Dip",
+    muscleGroup: "chest",
+    equipment: "bodyweight",
+    difficulty: "advanced",
+    image: "",
+    template: "dip",
+    steps: [
+      "Hold the parallel bars and lean your torso forward about 30 degrees.",
+      "Bend your knees and cross your ankles behind you.",
+      "Lower yourself until you feel a stretch in your chest, elbows flared slightly.",
+      "Press up while keeping the forward lean to stay on the chest.",
+    ],
+    tips: [
+      "Staying upright targets triceps; leaning forward shifts work to the chest.",
+      "Use an assisted machine or resistance band if strict reps are out of reach.",
+    ],
+    mistakes: [
+      "Dropping too deep too fast and straining the shoulder joints.",
+      "Kipping or swinging the legs for momentum.",
+    ],
+  },
+  {
+    id: "incline-barbell-press",
+    name: "Incline Barbell Press",
+    muscleGroup: "chest",
+    equipment: "barbell",
+    difficulty: "intermediate",
+    image: "",
+    template: "bench-press",
+    steps: [
+      "Lie back on a bench set to 30-45 degrees with feet firmly planted.",
+      "Grip the bar just outside shoulder width and unrack it.",
+      "Lower the bar to your upper chest near the collarbone.",
+      "Press straight up until your arms lock out.",
+    ],
+    tips: [
+      "Keep the bar path perpendicular to the floor for maximum leverage.",
+      "Have a spotter help with unracking heavier loads.",
+    ],
+    mistakes: [
+      "Using a steep incline above 45 degrees, turning it into a shoulder press.",
+      "Lifting your hips off the bench as you press.",
+    ],
+  },
+  {
+    id: "machine-chest-press",
+    name: "Machine Chest Press",
+    muscleGroup: "chest",
+    equipment: "machine",
+    difficulty: "beginner",
+    image: "",
+    template: "bench-press",
+    steps: [
+      "Adjust the seat so handles line up with mid-chest height.",
+      "Sit with your back and head against the pad, feet flat.",
+      "Grip the handles and press forward until arms are extended.",
+      "Return slowly until your hands reach chest level.",
+    ],
+    tips: [
+      "Great for beginners to build strength before free-weight pressing.",
+      "Pause briefly at full extension for a stronger contraction.",
+    ],
+    mistakes: [
+      "Rounding the shoulders forward off the backrest.",
+      "Moving so fast that momentum does most of the work.",
+    ],
+  },
+];

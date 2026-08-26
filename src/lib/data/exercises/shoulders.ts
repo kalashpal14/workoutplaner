@@ -1,0 +1,165 @@
+import type { Exercise } from "@/lib/types";
+
+export const SHOULDER_EXERCISES: Exercise[] = [
+  {
+    id: "overhead-press",
+    name: "Overhead Press",
+    muscleGroup: "shoulders",
+    equipment: "barbell",
+    difficulty: "intermediate",
+    image: "",
+    template: "overhead-press",
+    steps: [
+      "Hold the bar at collarbone level with a grip just outside shoulders.",
+      "Brace glutes and core so the body stays rigid.",
+      "Press the bar straight up, moving your head slightly back out of the path.",
+      "Lock out overhead with biceps by the ears, then lower to the start.",
+    ],
+    tips: [
+      "Squeeze glutes hard - it stops you from arching the lower back.",
+      "Push your head 'through the window' once the bar passes forehead height.",
+    ],
+    mistakes: [
+      "Leaning back and pressing off the chest like an incline bench.",
+      "Stopping short of a full overhead lockout.",
+    ],
+  },
+  {
+    id: "arnold-press",
+    name: "Arnold Press",
+    muscleGroup: "shoulders",
+    equipment: "dumbbell",
+    difficulty: "intermediate",
+    image: "",
+    template: "overhead-press",
+    steps: [
+      "Sit tall holding dumbbells in front of your shoulders, palms facing you.",
+      "Press up while rotating palms outward.",
+      "Finish overhead with palms facing forward.",
+      "Reverse the rotation as you lower back down.",
+    ],
+    tips: [
+      "The rotation sweeps through all three deltoid heads in one rep.",
+      "Keep the movement smooth; no need for heavy weights.",
+    ],
+    mistakes: [
+      "Rushing the rotation and losing tension.",
+      "Arching the lower back while pressing.",
+    ],
+  },
+  {
+    id: "lateral-raise",
+    name: "Lateral Raise",
+    muscleGroup: "shoulders",
+    equipment: "dumbbell",
+    difficulty: "beginner",
+    image: "",
+    template: "lateral-raise",
+    steps: [
+      "Stand holding dumbbells at your sides, slight elbow bend.",
+      "Raise arms out to the sides until they reach shoulder height.",
+      "Lead with the elbows, hands staying below them.",
+      "Lower slowly under control.",
+    ],
+    tips: [
+      "Imagine pouring water from a jug at the top of each rep.",
+      "Light weight, high reps - this is about feel, not ego.",
+    ],
+    mistakes: [
+      "Swinging the weights using hip and torso momentum.",
+      "Shrugging the traps up instead of isolating the delts.",
+    ],
+  },
+  {
+    id: "front-raise",
+    name: "Front Raise",
+    muscleGroup: "shoulders",
+    equipment: "dumbbell",
+    difficulty: "beginner",
+    image: "",
+    template: "front-raise",
+    steps: [
+      "Hold dumbbells in front of your thighs, palms facing back.",
+      "Raise one or both arms straight ahead to shoulder height.",
+      "Pause briefly at the top without swinging.",
+      "Lower with control to the thighs.",
+    ],
+    tips: [
+      "Alternate arms to keep the core engaged against rotation.",
+      "A plate or single dumbbell held with both hands works well too.",
+    ],
+    mistakes: [
+      "Using a hip thrust to launch the weights upward.",
+      "Raising above eye level, which shifts work away from front delts.",
+    ],
+  },
+  {
+    id: "rear-delt-fly",
+    name: "Rear Delt Fly",
+    muscleGroup: "shoulders",
+    equipment: "dumbbell",
+    difficulty: "beginner",
+    image: "",
+    template: "rear-fly",
+    steps: [
+      "Hinge forward at the hips until your torso is near parallel to the floor.",
+      "Let the dumbbells hang below you, palms facing each other.",
+      "Raise arms out wide, leading with elbows, slight bend maintained.",
+      "Squeeze the rear delts at the top, then lower slowly.",
+    ],
+    tips: [
+      "Rest your forehead on an incline bench to remove momentum.",
+      "Most lifters neglect rear delts - do these weekly.",
+    ],
+    mistakes: [
+      "Rowing the weight instead of raising it out to the sides.",
+      "Lifting the head and chest during each rep.",
+    ],
+  },
+  {
+    id: "upright-row",
+    name: "Upright Row",
+    muscleGroup: "shoulders",
+    equipment: "barbell",
+    difficulty: "intermediate",
+    image: "",
+    template: "upright-row",
+    steps: [
+      "Hold the bar at thigh level with a shoulder-width overhand grip.",
+      "Pull the bar straight up along your body toward chin height.",
+      "Elbows should rise above the hands at the top.",
+      "Lower the bar under control.",
+    ],
+    tips: [
+      "Stop at chest height if pulling to the chin bothers your shoulders.",
+      "A rope cable attachment allows a more joint-friendly wrist angle.",
+    ],
+    mistakes: [
+      "Using a narrow grip that internally rotates the shoulders aggressively.",
+      "Yanking with the lower back to start the pull.",
+    ],
+  },
+  {
+    id: "barbell-shrug",
+    name: "Barbell Shrug",
+    muscleGroup: "shoulders",
+    equipment: "barbell",
+    difficulty: "beginner",
+    image: "",
+    template: "shrug",
+    steps: [
+      "Hold a barbell at thigh level with an overhand grip, arms straight.",
+      "Elevate your shoulders straight up toward your ears.",
+      "Pause at the top for a full second.",
+      "Let the shoulders descend into a full stretch.",
+    ],
+    tips: [
+      "Straight up and down - rolling the shoulders adds nothing.",
+      "Straps can help when grip gives out before the traps.",
+    ],
+    mistakes: [
+      "Rotating the shoulders in circles.",
+      "Bending the elbows and turning it into a mini row.",
+    ],
+  },
+];

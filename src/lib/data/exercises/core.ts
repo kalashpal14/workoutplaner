@@ -1,0 +1,188 @@
+import type { Exercise } from "@/lib/types";
+
+export const CORE_EXERCISES: Exercise[] = [
+  {
+    id: "plank",
+    name: "Plank",
+    muscleGroup: "core",
+    equipment: "bodyweight",
+    difficulty: "beginner",
+    image: "",
+    template: "plank",
+    steps: [
+      "Set up on forearms and toes, elbows under shoulders.",
+      "Form a straight line from head to heels.",
+      "Brace the abs and squeeze glutes.",
+      "Hold while breathing steadily for time.",
+    ],
+    tips: [
+      "Quality over duration - 30 strict seconds beats 90 sloppy ones.",
+      "Log each hold as one 'set' with seconds as the weight field if you like.",
+    ],
+    mistakes: [
+      "Hips sagging or spiking toward the ceiling.",
+      "Holding your breath throughout the set.",
+    ],
+  },
+  {
+    id: "crunch",
+    name: "Crunch",
+    muscleGroup: "core",
+    equipment: "bodyweight",
+    difficulty: "beginner",
+    image: "",
+    template: "crunch",
+    steps: [
+      "Lie on your back, knees bent, hands lightly behind ears.",
+      "Curl shoulder blades off the floor using the abs.",
+      "Exhale hard at the top of the movement.",
+      "Lower slowly without fully relaxing between reps.",
+    ],
+    tips: [
+      "Do not pull on your neck - fingertips are there for support only.",
+      "Slow tempo with a pause at the top multiplies the effect.",
+    ],
+    mistakes: [
+      "Yanking the head forward with the hands.",
+      "Rushing through dozens of fast reps.",
+    ],
+  },
+  {
+    id: "bicycle-crunch",
+    name: "Bicycle Crunch",
+    muscleGroup: "core",
+    equipment: "bodyweight",
+    difficulty: "beginner",
+    image: "",
+    template: "crunch",
+    steps: [
+      "Lie flat, legs raised, hands behind your head.",
+      "Bring opposite elbow toward opposite knee while extending the other leg.",
+      "Switch sides in a smooth pedaling motion.",
+      "Keep lower back pressed into the floor throughout.",
+    ],
+    tips: [
+      "Rotation comes from the ribcage, not just the elbow.",
+      "Slow controlled reps beat a frantic pace every time.",
+    ],
+    mistakes: [
+      "Pulling the neck with interlaced fingers.",
+      "Legs dropping low enough that the back arches.",
+    ],
+  },
+  {
+    id: "hanging-leg-raise",
+    name: "Hanging Leg Raise",
+    muscleGroup: "core",
+    equipment: "bodyweight",
+    difficulty: "advanced",
+    image: "",
+    template: "leg-raise",
+    steps: [
+      "Hang from a pull-up bar with straight arms and active shoulders.",
+      "Raise legs to at least hip height by curling the pelvis up.",
+      "Lower with control - no swinging.",
+      "Reset your hang before the next rep.",
+    ],
+    tips: [
+      "Bent knees make it easier; pike-straight legs make it harder.",
+      "Think about tilting the pelvis rather than swinging the feet up.",
+    ],
+    mistakes: [
+      "Momentum swings between reps.",
+      "Only lifting legs without any pelvic curl.",
+    ],
+  },
+  {
+    id: "russian-twist",
+    name: "Russian Twist",
+    muscleGroup: "core",
+    equipment: "bodyweight",
+    difficulty: "beginner",
+    image: "",
+    template: "twist",
+    steps: [
+      "Sit with knees bent, heels lightly touching the floor.",
+      "Lean back to about 45 degrees, chest tall.",
+      "Rotate the torso to tap the floor beside your hip.",
+      "Alternate sides while keeping the lean constant.",
+    ],
+    tips: [
+      "Hold a plate or medicine ball to add resistance.",
+      "Lift the feet off the floor to raise difficulty.",
+    ],
+    mistakes: [
+      "Just waving the arms side to side without rotating the torso.",
+      "Collapsing the chest during the lean.",
+    ],
+  },
+  {
+    id: "mountain-climber",
+    name: "Mountain Climber",
+    muscleGroup: "core",
+    equipment: "bodyweight",
+    difficulty: "beginner",
+    image: "",
+    template: "plank",
+    steps: [
+      "Start in a high plank with wrists under shoulders.",
+      "Drive one knee toward the chest.",
+      "Switch legs quickly in a running rhythm.",
+      "Keep hips level and core braced throughout.",
+    ],
+    tips: [
+      "Slower reps with big knee travel build more control.",
+      "Great as a conditioning finisher.",
+    ],
+    mistakes: [
+      "Bouncing hips up and down with each switch.",
+      "Letting the front foot land far ahead of its knee.",
+    ],
+  },
+  {
+    id: "side-plank",
+    name: "Side Plank",
+    muscleGroup: "core",
+    equipment: "bodyweight",
+    difficulty: "beginner",
+    image: "",
+    template: "plank-side",
+    steps: [
+      "Lie on one side with elbow under shoulder, feet stacked.",
+      "Lift the hips until body forms a straight diagonal line.",
+      "Hold while squeezing glutes and obliques.",
+      "Repeat on the other side for equal time.",
+    ],
+    tips: [
+      "Place the top hand on the floor or hip for balance help.",
+      "Raise the top leg for an extra challenge.",
+    ],
+    mistakes: [
+      "Hips drifting toward the floor mid-hold.",
+      "Rotating the chest toward the ground.",
+    ],
+  },
+  {
+    id: "ab-wheel-rollout",
+    name: "Ab Wheel Rollout",
+    muscleGroup: "core",
+    equipment: "machine",
+    difficulty: "advanced",
+    image: "",
+    template: "rollout",
+    steps: [
+      "Kneel on the floor holding the wheel under your shoulders.",
+      "Tuck the pelvis and brace the abs hard.",
+      "Roll forward slowly, keeping the lower back flat.",
+      "Pull the wheel back with the abs before the back arches.",
+    ],
+    tips: [
+      "Range grows over time - start with short rollouts.",
+      "Stop immediately once you feel the lower back sagging.",
+    ],
+    mistakes: [
+      "Rolling farther than core strength allows, arching the spine.",
+      "Letting hips drop toward the floor.",
+    ],
+  },
+];
