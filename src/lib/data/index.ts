@@ -1,4 +1,5 @@
 import type { Exercise } from "@/lib/types";
+import { BASE_PATH } from "@/lib/config";
 import { CHEST_EXERCISES } from "./exercises/chest";
 import { BACK_EXERCISES } from "./exercises/back";
 import { LEG_EXERCISES } from "./exercises/legs";
@@ -13,7 +14,7 @@ export const EXERCISES: Exercise[] = [
   ...SHOULDER_EXERCISES,
   ...ARM_EXERCISES,
   ...CORE_EXERCISES,
-].map((e) => ({ ...e, image: `/exercises/${e.id}.svg` }));
+].map((e) => ({ ...e, image: `${BASE_PATH}/exercises/${e.id}.svg` }));
 
 export function getExercise(id: string): Exercise | undefined {
   return EXERCISES.find((e) => e.id === id);
